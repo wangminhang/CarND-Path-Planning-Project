@@ -16,7 +16,7 @@ using namespace std;
 using json = nlohmann::json;
 
 // Param to be adjusted
-const double TARGET_SPEED =50; // max speed
+const double TARGET_SPEED = 49.5; // max speed
 const double TARGET_ACC = 6;	// max acceleration
 const double TARGET_JERK = 4.5;   // max jerk
 const double REFRESH_TIME = 0.02;		// refresh time between two position
